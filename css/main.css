@@ -1,0 +1,284 @@
+/*initialisation de la page */
+
+* {
+  box-sizing: border-box;
+}
+html, body {
+  width: 100%;
+}
+body {
+overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  height: 100vh;
+}
+
+/*mis en page du haut de page*/
+
+header {
+  height: 30%;
+}
+.logot {
+  padding-top: 1%;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+nav {
+  margin-top: 1.5%;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  font-family: Verdana;
+  /*stylage des boutons de la barre de nav*/
+}
+nav li {
+  display: inline;
+}
+nav li input {
+  cursor: pointer;
+  background-color: white;
+  border-radius: 2px;
+  margin-top: 2%;
+  margin-right: 4%;
+  font-size: 15px;
+}
+.baccueil {
+  border: 1px solid #94C11F;
+  box-shadow: 0px 3px 6px #333333;
+  color: #878787;
+}
+.baccueil:hover {
+  background-color: #94C11F;
+  color: white;
+  border: 1px solid white;
+}
+.blocauxmoteur {
+  border: 1px solid #1D70B8;
+  box-shadow: 0px 3px 6px #333333;
+  color: #878787;
+}
+.blocauxmoteur:hover {
+  background-color: #1D70B8;
+  color: white;
+  border: 1px solid white;
+}
+.brecherche {
+  border: 1px solid #E30613;
+  box-shadow: 0px 3px 6px #333333;
+  color: #878787;
+}
+.brecherche:hover {
+  background-color: #E30613;
+  color: white;
+  border: 1px solid white;
+}
+.binstitution {
+  border: 1px solid #F39200;
+  box-shadow: 0px 3px 6px #333333;
+  color: #878787;
+}
+.binstitution:hover {
+  background-color: #F39200;
+  color: white;
+  border: 1px solid white;
+}
+.bpartenaire {
+  border: 1px solid #94C11F;
+  box-shadow: 0px 3px 6px #333333;
+  color: #878787;
+}
+.bpartenaire:hover {
+  background-color: #94C11F;
+  color: white;
+  border: 1px solid white;
+}
+.bsoutiens {
+  border: 1px solid #1D70B8;
+  box-shadow: 0px 3px 6px #333333;
+  color: #878787;
+}
+.bsoutiens:hover {
+  background-color: #1D70B8;
+  color: white;
+  border: 1px solid white;
+}
+
+/* ajout du styles dans la balise mains*/
+
+main {
+  border-top: 1px solid #E30613;
+  border-bottom: 1px solid #F39200;
+  padding-top: 2%;
+  padding-bottom: 1%;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: Verdana;
+}
+
+/*ajout des bordures pour chaque paragraphe*/
+
+.p1, .p5 {
+  padding-left: 2%;
+  border-left: 1px solid #94C11F;
+  border-right: 1px solid #94C11F;
+}
+.p2, .p6 {
+  padding-left: 2%;
+  border-left: 1px solid #1D70B8;
+  border-right: 1px solid #1D70B8;
+}
+.p3, .p7 {
+  padding-left: 2%;
+  border-left: 1px solid #E30613;
+  border-right: 1px solid #E30613;
+}
+.p4 {
+  padding-left: 2%;
+  padding-right: 1%;
+  border-left: 1px solid #F39200;
+  border-right: 1px solid #F39200;
+}
+
+/* ajout du style dans la balise section*/
+
+.descrip {
+  margin-top: 2%;
+  margin-left: 25%;
+  border: 2px solid #878787;
+  border-radius: 4px;
+  box-shadow: 7px -9px 16px #333333;
+}
+
+/*placement des bouttons du shema*/
+
+.shema {
+  font-family: Verdana;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-align: center;
+  margin: auto;
+}
+.locauxmoteur {
+  margin-top: 2%;
+  cursor: pointer;
+  margin-bottom: 1.5%;
+  background-color: #94C11F;
+  border: none;
+  color: white;
+  font-size: 25px;
+}
+.locauxmoteur:hover {
+  background-color: white;
+  color: #94C11F;
+  border: 1px solid #94C11F;
+}
+.recherche {
+  cursor: pointer;
+  margin-right: 20%;
+  margin-top: 8%;
+  margin-bottom: 2%;
+  background-color: #1D70B8;
+  border: none;
+  color: white;
+  font-size: 25px;
+}
+.recherche:hover {
+  background-color: white;
+  color: #1D70B8;
+  border: 1px solid #1D70B8;
+}
+.institution {
+  margin-top: 9%;
+  cursor: pointer;
+  background-color: #F39200;
+  border: none;
+  color: white;
+  font-size: 25px;
+}
+.institution:hover {
+  background-color: white;
+  color: #F39200;
+  border: 1px solid #F39200;
+}
+.partenaire {
+  margin-top: 3%;
+  cursor: pointer;
+  background-color: #94C11F;
+  border: none;
+  color: white;
+  font-size: 25px;
+}
+.partenaire:hover {
+  background-color: white;
+  color: #94C11F;
+  border: 1px solid #94C11F;
+}
+.soutiens {
+  margin-top: 3%;
+  cursor: pointer;
+  background-color: #E30613;
+  border: none;
+  margin-left: -85%;
+  color: white;
+  font-size: 25px;
+}
+.soutiens:hover {
+  background-color: white;
+  color: #E30613;
+  border: 1px solid #E30613;
+}
+.medium2 {
+  margin-top: 3%;
+  margin-left: 15%;
+}
+
+}
+
+/*placement des logo*/
+.logo1 {
+  margin-top: 1%;
+}
+.logo2 {
+  margin-left: -30%;
+}
+.fdb {
+  margin-left: -6%;
+}
+.logo3 {
+  margin-top: 3%;
+}
+.logo4 {
+  margin-left: ;
+}
+.SAS {
+  margin-top: 7%;
+  margin-left: -85%;
+  color: #1D70B8;
+  font-size: 15px;
+}
+
+/*mis en page du pied de page*/
+footer {
+  box-shadow: 0px -10px 13px #333333;
+  width: 100%;
+  border-top: 3px solid #F39200;
+  background-color: #94C11F;
+  padding-bottom: 1%;
+  font-family: Verdana;
+}
+.contact1 {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.contact1 h3 {
+  font-size: 30px;
+  color: white;
+}
+.contact1 p {
+  margin: auto;
+  margin-left: 20%;
+  color: white;
+  font-size: 15px;
+}
